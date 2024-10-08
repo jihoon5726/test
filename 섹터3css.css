@@ -1,0 +1,53 @@
+
+.menu {
+    width: 80%;
+    height: 400px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item {
+    width: 22%;
+    height: 100%;
+    position: relative;
+}
+
+.menu_item:hover {
+    cursor: pointer;
+}
+
+.menu_item > img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+}
+
+.item_txt {
+    width: 100%;
+    height: 50%;
+    border: 1px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #f8f8f9;
+}
+
+.txt_top {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.txt_btm {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b8aaa4;
+}
+
+.coffee {display: none;}
+.dessert {display: none;}
